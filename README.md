@@ -1,3 +1,3 @@
 ﻿# randomQuotes
 
- live demo: tps://karemahamdy.github.io/randomQuotes/
+ live demo: https://karemahamdy.github.io/randomQuotes/
