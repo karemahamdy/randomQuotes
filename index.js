@@ -12,3 +12,6 @@ async function getquote(url) {
 getquote(randomQuote);
 
 // add event on button 
+ document.getElementById("button").onclick = function(){
+    getquote(randomQuote);
+};
