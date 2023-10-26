@@ -1,0 +1,70 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: "Roboto";
+    background-color: #bbc6fa;
+}
+
+.random-Quote{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #eee;
+    min-height: 250px;
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px 6px #28345357;
+    padding: 20px;
+}
+.random-Quote h3{
+    text-align: center;
+    color: #000000;   
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.random-Quote blockquote{
+    font-size: 25px;
+}
+.random-Quote blockquote::before{
+    content: '"';
+}
+.random-Quote span {
+margin-top: 10px;
+float: right;
+ display: block;
+ font-size: 18px;
+ position: relative;
+}
+.random-Quote span::before{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background-color: #86bbdf;
+    top: 50%;
+    left: -30px;
+}
+.random-Quote .bttn{
+    width: 50%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.random-Quote button{
+    background-color: #86bbdf;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: transparent;
+    font-weight: bold;
+}
